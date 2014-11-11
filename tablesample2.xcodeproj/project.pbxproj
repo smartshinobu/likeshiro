@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8708ADA21A11C30F00F77FE1 /* Webreturn.m in Sources */ = {isa = PBXBuildFile; fileRef = 8708ADA01A11C30F00F77FE1 /* Webreturn.m */; };
 		876FE3121A0B94AF00F0F334 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 876FE3111A0B94AF00F0F334 /* main.m */; };
 		876FE3151A0B94AF00F0F334 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 876FE3141A0B94AF00F0F334 /* AppDelegate.m */; };
 		876FE3181A0B94AF00F0F334 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 876FE3171A0B94AF00F0F334 /* ViewController.m */; };
@@ -14,6 +15,7 @@
 		876FE31D1A0B94AF00F0F334 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 876FE31C1A0B94AF00F0F334 /* Images.xcassets */; };
 		876FE3201A0B94AF00F0F334 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 876FE31E1A0B94AF00F0F334 /* LaunchScreen.xib */; };
 		876FE32C1A0B94B000F0F334 /* tablesample2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 876FE32B1A0B94B000F0F334 /* tablesample2Tests.m */; };
+		876FE33A1A0B96B800F0F334 /* SampleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 876FE3391A0B96B800F0F334 /* SampleTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8708ADA01A11C30F00F77FE1 /* Webreturn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Webreturn.m; sourceTree = "<group>"; };
+		8708ADA31A11C32D00F77FE1 /* Webreturn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Webreturn.h; sourceTree = "<group>"; };
 		876FE30C1A0B94AF00F0F334 /* tablesample2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tablesample2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		876FE3101A0B94AF00F0F334 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		876FE3111A0B94AF00F0F334 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +44,8 @@
 		876FE3251A0B94B000F0F334 /* tablesample2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tablesample2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		876FE32A1A0B94B000F0F334 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		876FE32B1A0B94B000F0F334 /* tablesample2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tablesample2Tests.m; sourceTree = "<group>"; };
+		876FE3381A0B96B800F0F334 /* SampleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleTableViewCell.h; sourceTree = "<group>"; };
+		876FE3391A0B96B800F0F334 /* SampleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +87,15 @@
 		876FE30E1A0B94AF00F0F334 /* tablesample2 */ = {
 			isa = PBXGroup;
 			children = (
+				8708ADA31A11C32D00F77FE1 /* Webreturn.h */,
+				8708ADA01A11C30F00F77FE1 /* Webreturn.m */,
 				876FE3131A0B94AF00F0F334 /* AppDelegate.h */,
 				876FE3141A0B94AF00F0F334 /* AppDelegate.m */,
 				876FE3161A0B94AF00F0F334 /* ViewController.h */,
 				876FE3171A0B94AF00F0F334 /* ViewController.m */,
 				876FE3191A0B94AF00F0F334 /* Main.storyboard */,
+				876FE3381A0B96B800F0F334 /* SampleTableViewCell.h */,
+				876FE3391A0B96B800F0F334 /* SampleTableViewCell.m */,
 				876FE31C1A0B94AF00F0F334 /* Images.xcassets */,
 				876FE31E1A0B94AF00F0F334 /* LaunchScreen.xib */,
 				876FE30F1A0B94AF00F0F334 /* Supporting Files */,
@@ -220,8 +230,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				876FE3181A0B94AF00F0F334 /* ViewController.m in Sources */,
+				876FE33A1A0B96B800F0F334 /* SampleTableViewCell.m in Sources */,
 				876FE3151A0B94AF00F0F334 /* AppDelegate.m in Sources */,
 				876FE3121A0B94AF00F0F334 /* main.m in Sources */,
+				8708ADA21A11C30F00F77FE1 /* Webreturn.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +424,7 @@
 				876FE3311A0B94B000F0F334 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		876FE3321A0B94B000F0F334 /* Build configuration list for PBXNativeTarget "tablesample2Tests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +433,7 @@
 				876FE3341A0B94B000F0F334 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
